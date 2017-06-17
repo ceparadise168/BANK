@@ -90,6 +90,7 @@ class BankController extends Controller
          $em->flush();
 
        $idd =  $bank->getId();
+
        $jsonArray = [
            "id" => $idd,
            "username" =>  $registerUsername,
