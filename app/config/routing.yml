@@ -1,0 +1,38 @@
+app:
+    resource: '@AppBundle/Controller/'
+    type: annotation
+Bank_index:
+    path: /bank/index
+    defaults: { _controller:AppBundle:Bank:index }
+
+Bank_register:
+    path: /bank/register
+    defaults: { _controller:AppBundle:Bank:register }
+
+Bank_login:
+    path: /bank/login
+    defaults: { _controller:AppBundle:Bank:login }
+
+Bank_serach:
+    path: /bank/serach
+    defaults: { _controller:AppBundle:Bank:serach }
+
+Bank_menu:
+    path: /bank/menu
+    defaults: { _controller:AppBundle:Bank:menu }
+
+Bank_depositLog:
+    path: /bank/log/deposit
+    defaults: { _controller:AppBundle:Bank:depositLog }
+
+Bank_withdrawalsLog:
+    path: /bank/log/withdrawals
+    defaults: { _controller:AppBundle:Bank:withdrawalsLog }
+
+Bank_transferLog:
+    path: /bank/log/transfer
+    defaults: { _controller:AppBundle:Bank:transferLog }
+
+Bank_receiveLog:
+    path: /bank/log/receive
+    defaults: { _controller:AppBundle:Bank:receiveLog }
