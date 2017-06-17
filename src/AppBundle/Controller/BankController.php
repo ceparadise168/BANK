@@ -115,15 +115,6 @@ class BankController extends Controller
         $response->headers->set('Content-Type', 'application/json');
         $response->headers->set('Access-Control-Allow-Origin', '*');
 
-        /*
-           if (!is_null($bank) && !empty($bank)) {
-           $trade->setBank($bank);
-           } else {
-           dump("\$bank is null");
-           }
-         */
-        // dump($trade);
-        //      dump("YOOOOOOOOO");
         return $response;
     }
 
