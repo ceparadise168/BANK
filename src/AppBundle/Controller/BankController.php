@@ -85,7 +85,6 @@ class BankController extends Controller
         $trade->setBank($bank);
 
         $em = $this->getDoctrine()->getManager();
-//dump($bank);
          $em->persist($bank);
          $em->persist($trade);
          $em->flush();
