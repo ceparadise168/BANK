@@ -91,7 +91,8 @@ class BankController extends Controller
 
        $idd =  $bank->getId();
 //this is a test line
-//this is a test line in dev 2 
+//this is a test line in dev 2
+//this is atest line 3 
        $jsonArray = [
            "id" => $idd,
            "username" =>  $registerUsername,
