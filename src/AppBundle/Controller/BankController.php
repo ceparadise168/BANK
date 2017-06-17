@@ -93,7 +93,7 @@ class BankController extends Controller
        $idd =  $bank->getId();
 
        $jsonArray = [
-           //"id" => $idd,
+           "id" => $idd,
            "username" =>  $registerUsername,
            "password" => $registerPassword
        ];
